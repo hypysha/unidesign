@@ -1,0 +1,236 @@
+body {
+    font-family: 'Poppins';
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  
+  .label {
+    color: #0E0578;
+    padding-top: 10px;
+    margin-top: 59px;
+    height: 72px;
+    margin-right:150px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    margin-left: 78px;
+    margin-right: 78px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    height: 45px;
+    margin-top: 59px;
+    margin-right: 0px;
+    align-content: space-around;
+  }
+  
+  .navigation > h3 {
+    color: #686565;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+    margin: 78px;
+  }
+  
+  .main-information-block {
+    width: 616px;
+    color: #383838;
+  }
+  
+  .greeting {
+    color: #2000E7;
+  }
+  
+  .title {
+    color: #2000E7;
+    width: 447px;
+  }
+  
+  .yellow {
+    color: #F2BD00;
+  }
+  
+  .hire-me {
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #2000E7;
+    width: 246px;
+    height: 72px;
+    flex-shrink: 0;
+    margin: 100px 16px 0 0;
+    border-radius: 10px;
+    box-shadow: 21px 11px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  .my-project {
+    font-family: 'Poppins';
+    font-size: 24px;
+    background-color: rgba(32, 0, 231, 0.04);
+    color: #2000E7;
+    width: 246px;
+    height: 72px;
+    flex-shrink: 0;
+    padding: 18px;
+    border: 2px solid  #2000E7;
+    border-radius: 10px;
+    box-shadow: 21px 11px 15px rgba(0, 0, 0, 0.30);
+  }
+  
+  .photo {
+    width: 564px;
+    height: 564px;
+  }
+  
+  .about {
+    margin-top: 171px;
+    display: flex;
+    margin-bottom: 300px;
+  }
+  
+  .about-title {
+    color: #2000E7;
+    letter-spacing: 16.8px;
+  }
+  
+  .about-information > button {
+    margin-left: 77px;
+  }
+  
+  .about-text {
+    width: 415px;
+    margin-left: 45px;
+  }
+  
+  .about-picture {
+    width: 925px;
+    height: 925px;
+    margin-left: 79px;
+  }
+  
+  .projects {
+    background: rgba(255, 214, 150, 0.20);
+    text-align: center;
+    margin-bottom: 272px;
+  }
+  
+  .projects > h2 {
+    padding-top: 35px;
+    color: #3B1FEA;
+    margin-bottom: 0;
+  }
+  
+  .projects > p {
+    margin: 0;
+  }
+  
+  .project-examples {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .project-examples > img {
+    width: 246px;
+    height: 180px;
+    flex-shrink: 0;
+    margin: 46px;
+  }
+  
+  .contact-me {
+    background: rgba(67, 186, 253, 0.06);
+    text-align: center;
+    margin-bottom: 208px;
+  }
+  
+  .contact-me > h2 {
+    padding-top: 35px;
+    color: #220BE8;
+    margin-bottom: 0;
+  }
+  
+  .contact-me > p {
+    margin: 0;
+  }
+  
+  .contact-card {
+    display: flex;
+    align-items: flex-start; /* добавляем выравнивание по верхнему краю */
+    justify-content: center; /* добавляем выравнивание по центру */
+    margin-bottom: 0; /* убираем нижний отступ */
+
+  }
+  
+  .contact-card > img {
+    width: 958px;
+    height: 958px;
+    margin-left: 30px; /* уменьшаем отступ слева */
+    margin-top: -60px; /* поднимаем изображение */
+  }
+  
+  .form {
+    width: 655px;
+    margin-left: 30px; /* уменьшаем отступ слева */
+    margin-top: 159px;
+    text-align: center;
+    display: flex; /* добавляем контейнеру display: flex */
+    flex-direction: column; /* задаем направление колонкой */
+    align-items: center; /* выравниваем по центру */
+  }
+  
+  .email,
+  .password,
+  .message {
+    font-family: 'Poppins';
+    font-size: 32px;
+    background: #FFF;
+    color: #000;
+    width: 653px;
+    height: 94px;
+    border: none;
+    padding-left: 0;
+    margin-left: 10px;
+    margin-bottom: 40px; /* уменьшаем отступ между полями */
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+
+  
+  .message {
+    height: 200px; /* увеличиваем высоту поля "Message" */
+  }
+
+  
+  .form > button {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 32px;
+    width: 327px;
+    height: 94px;
+    flex-shrink: 0;
+    margin-bottom: 190px;
+    border: none;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  footer {
+    display: flex;
+    fill: rgba(255, 214, 150, 0.20);
+  }
